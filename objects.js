@@ -12,3 +12,4 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist;
 }
 
+In package.json change this: "mocha-jsdom": "^1.1.0", to "mocha-jsdom": "~1.1.0", and run npm install
